@@ -6,6 +6,8 @@ Minimalistic dependency injection library for browser. For those who still use b
 
 ## Motivation
 
+> For quick introduction see the `examples` folder.
+
 Get library with minimalistic API that allow to define frontend modules in order-agnostic style. This allows to concatenate all modules into single file with mask like this `app/*.js`
 
 ## Usage
@@ -72,7 +74,7 @@ Return object where all modules collected and set global one named like so: `mod
 Can be used for debugging purpose only, do not access to modules directly.
 
 ```javascript
-var allModules = module.debug();
+module.debug();
 ```
 
 ### module.noConflict()
@@ -89,14 +91,6 @@ di('user', function () {
         }
     }
 });
-```
-
-### module.VERSION
-
-Contains library version.
-
-```javascript
-alert(module.VERSION);
 ```
 
 ## TODO

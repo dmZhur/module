@@ -13,11 +13,12 @@ module('main', ['app'], function (app) {
 module('app', ['user', 'task', 'dashboard.task'], function (user, task, dashboardTask) {
     return {
         initialize: function () {
-            alert(task.canCreate());
+            console.log('can create task - ' + task.canCreate());
 
             user.login();
+            console.log('login()');
 
-            alert(dashboardTask.canQuickCreate());
+            console.log('can create task - ' + dashboardTask.canQuickCreate());
         }
     };
 });
