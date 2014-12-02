@@ -72,7 +72,7 @@ Return object where all modules collected and set global one named like so: `mod
 Can be used for debugging purpose only, do not access to modules directly.
 
 ```javascript
-module.debug();
+var allModules = module.debug();
 ```
 
 ### module.noConflict()
@@ -89,6 +89,14 @@ di('user', function () {
         }
     }
 });
+```
+
+### module.VERSION
+
+Contains library version.
+
+```javascript
+alert(module.VERSION);
 ```
 
 ## TODO
