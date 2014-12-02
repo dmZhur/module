@@ -1,0 +1,30 @@
+{
+  "name": "module",
+  "version": "0.1.0",
+  "description": "Minimalistic dependency injection library for browser. For those who still use browser globals and don\\'t want AMD or Commonjs in their project.",
+  "main": "./dist/module.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tytskiy/module.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "di",
+    "dependency",
+    "injection",
+    "module"
+  ],
+  "author": "tytskiy <aleksandr.tyckij@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-jshint": "^1.9.0",
+    "gulp-preprocess": "^1.1.1",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.0.1",
+    "jshint-stylish": "^1.0.0",
+    "rimraf": "^2.2.8"
+  }
+}

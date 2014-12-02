@@ -1,0 +1,31 @@
+{
+  "name": "module",
+  "main": "./dist/module.js",
+  "version": "0.1.0",
+  "authors": [
+    "tytskiy <aleksandr.tyckij@gmail.com>"
+  ],
+  "description": "Minimalistic dependency injection library for browser. For those who still use browser globals and don't want AMD or Commonjs in their project.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tytskiy/module.git"
+  },
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "di",
+    "dependency",
+    "injection",
+    "module"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
