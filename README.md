@@ -95,7 +95,7 @@ di('user', function () {
 
 ## Limitations
 
-Any module should be define synchronously in other words no setTimeout/AJAX-dependent module definitions.
+Any module should be define synchronously. In other words no setTimeout/AJAX-dependent module definitions.
 
 ## TODO
 
